@@ -96,26 +96,26 @@ PASSWORD_HASH = generate_password_hash("admin123")
 
 ## 🛑 Security Notice
 
--This project is intended for personal/local use only.
--Avoid deploying this to the public internet without TLS/HTTPS.
--Do not expose sensitive files or use this on untrusted networks.
--If you plan to extend this:
-  -Add user roles
-  -Enable HTTPS (e.g., via reverse proxy or Flask extension)
-  -Use authentication tokens for upload/download APIs
+- This project is intended for personal/local use only.
+- Avoid deploying this to the public internet without TLS/HTTPS.
+- Do not expose sensitive files or use this on untrusted networks.
+- If you plan to extend this:
+  - Add user roles
+  - Enable HTTPS (e.g., via reverse proxy or Flask extension)
+  - Use authentication tokens for upload/download APIs
 
 ## ✨ Future Improvements (Optional Ideas)
 
-  -✅ Create folders, rename/delete files
-  -✅ Upload progress bar
-  -✅ Drag-and-drop upload
-  -✅ Public links for shared files
-  -✅ Light/dark mode toggle
+  - ✅ Create folders, rename/delete files
+  - ✅ Upload progress bar
+  - ✅ Drag-and-drop upload
+  - ✅ Public links for shared files
+  - ✅ Light/dark mode toggle
 
 ## ❤️ Credits
 
-Made with ❤️ by Yogeshwaran Kumaran
-Portfolio : https://yogeshwaran-kumaran.netlify.app/
-Connect with me on LinkedIn : https://www.linkedin.com/in/yogeshwarankumaran/
+**Made with ❤️ by Yogeshwaran Kumaran**
+- Portfolio : https://yogeshwaran-kumaran.netlify.app/
+- Connect with me on LinkedIn : https://www.linkedin.com/in/yogeshwarankumaran/
 
 
