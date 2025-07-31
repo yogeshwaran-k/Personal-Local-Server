@@ -18,8 +18,8 @@ A secure, mobile-optimized local file server built using Flask — allowing you 
 ## 🛠️ Installation
 
 1. **Clone this repo**
-   git clone https://github.com/yourusername/yk-local-server.git
-   cd yk-local-server
+   git clone https://github.com/yogeshwaran-k/Personal-Local-Server.git
+   cd Personal-Local-Server
    
 3. **Install the Dependencies**
     pip install -r requirements.txt
@@ -115,5 +115,7 @@ PASSWORD_HASH = generate_password_hash("admin123")
 ## ❤️ Credits
 
 Made with ❤️ by Yogeshwaran Kumaran
-Connect with me on LinkedIn
+Portfolio : https://yogeshwaran-kumaran.netlify.app/
+Connect with me on LinkedIn : https://www.linkedin.com/in/yogeshwarankumaran/
+
 
