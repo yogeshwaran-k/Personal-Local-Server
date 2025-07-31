@@ -68,39 +68,49 @@ PASSWORD_HASH = generate_password_hash("admin123")
 
 <img width="1919" height="1072" alt="image" src="https://github.com/user-attachments/assets/3d5a92e0-0d31-4ba4-bc3b-f333c5720865" />
 
+
+
 **File Manager Page in PC(Local Network)**
 
 <img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/0627b416-b3da-4420-91f6-d2e4334352bf" />
+
+
 
 **Login Page in Mobile(Different Network by scanning the QR of Ngrok Tunnel)**
 
 ![1](https://github.com/user-attachments/assets/5e725f29-9d5b-4604-97f7-f0efaaf24237)
 
+
+
 **File Manager Page in Mobile(Different Network by scanning the QR of Ngrok Tunnel)**
 
 ![2](https://github.com/user-attachments/assets/10ce1e94-9451-4fbb-9cb6-47edf6171d90)
+
+
 
 **CLI Output**
 
 <img width="717" height="358" alt="image" src="https://github.com/user-attachments/assets/51d6fca8-7242-47f6-9b60-6bba6c986806" />
 
+
+
 ## 🛑 Security Notice
 
-This project is intended for personal/local use only.
-Avoid deploying this to the public internet without TLS/HTTPS.
-Do not expose sensitive files or use this on untrusted networks.
-If you plan to extend this:
-  Add user roles
-  Enable HTTPS (e.g., via reverse proxy or Flask extension)
-  Use authentication tokens for upload/download APIs
+-This project is intended for personal/local use only.
+-Avoid deploying this to the public internet without TLS/HTTPS.
+-Do not expose sensitive files or use this on untrusted networks.
+-If you plan to extend this:
+  -Add user roles
+  -Enable HTTPS (e.g., via reverse proxy or Flask extension)
+  -Use authentication tokens for upload/download APIs
 
 ## ✨ Future Improvements (Optional Ideas)
 
-  ✅ Create folders, rename/delete files
-  ✅ Upload progress bar
-  ✅ Drag-and-drop upload
-  ✅ Public links for shared files
-  ✅ Light/dark mode toggle
+  -✅ Create folders, rename/delete files
+  -✅ Upload progress bar
+  -✅ Drag-and-drop upload
+  -✅ Public links for shared files
+  -✅ Light/dark mode toggle
 
 ## ❤️ Credits
 
