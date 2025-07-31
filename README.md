@@ -51,12 +51,12 @@ A secure, mobile-optimized local file server built using Flask — allowing you 
 
 ## 🔐 Default Login
 
-Username: admin
-Password: admin123
+- Username: admin
+- Password: admin123
 
-You can change them in server.py:
-USERNAME = "admin"
-PASSWORD_HASH = generate_password_hash("admin123")
+**You can change them in server.py:**
+- USERNAME = "admin"
+- PASSWORD_HASH = generate_password_hash("admin123")
 
 
 ---
