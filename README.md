@@ -25,30 +25,29 @@ A secure, mobile-optimized local file server built using Flask — allowing you 
     pip install -r requirements.txt
 
 4. **Install and Configure Ngrok**
-    Download Ngrok
-    Go to https://ngrok.com/download
-    Download and extract it for your OS (Windows/Mac/Linux)
+    - Download Ngrok
+    - Go to https://ngrok.com/download
+    - Download and extract it for your OS (Windows/Mac/Linux)
    
     **Sign Up and Get Your Auth Token**
-    Sign up at https://dashboard.ngrok.com/signup
-    After signing in, you'll get an auth token from the Auth Token page
+    - Sign up at https://dashboard.ngrok.com/signup
+    - After signing in, you'll get an auth token from the Auth Token page
 
     **Add Auth Token to Ngrok**
-    Run this in terminal/command prompt (replace YOUR_AUTHTOKEN with your token):
-    ngrok config add-authtoken YOUR_AUTHTOKEN
+    - Run this in terminal/command prompt (replace YOUR_AUTHTOKEN with your token):
+    - ngrok config add-authtoken YOUR_AUTHTOKEN
 
 5. **Run the Server**
     python start.py
 
     This will:
-      Start your Flask app locally on port 5000
-      Open a public HTTPS tunnel via Ngrok
-      Generate a QR code you can scan from your mobile
-      Automatically open the QR code image on your PC
+      - Start your Flask app locally on port 5000
+      - Open a public HTTPS tunnel via Ngrok
+      - Generate a QR code you can scan from your mobile
+      - Automatically open the QR code image on your PC
 
 6. **Open the Server on Your Mobile**
-    Scan the QR code displayed after launch
-    OR copy-paste the printed Ngrok URL into your mobile browser
+    - Scan the QR code displayed after launch OR copy-paste the printed Ngrok URL into your mobile browser
 
 ## 🔐 Default Login
 
