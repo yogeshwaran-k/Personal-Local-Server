@@ -108,15 +108,13 @@ LOGIN_PAGE = '''
       const result = await response.text();
 
       if (response.status === 200) {
-        showImagePopup("https://media.giphy.com/media/111ebonMs90YLu/giphy.gif");
         setTimeout(() => {
-          alert("🎉 Welcome Yoyo! Login successful.");
+          alert("🎉 Welcome ! Login successful.");
           window.location.href = "/browse";
         }, 1000);
       } else {
-        showImagePopup("https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif");
         setTimeout(() => {
-          alert("❌ You Illegal Entry.");
+          alert("❌Login Failed");
         }, 1000);
       }
     }
